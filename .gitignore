@@ -1,6 +1,19 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
+# git ignore file
 
-# mstest test results
-TestResults
+_ReSharper*/
+bin/
+obj/
+*/bin/
+*/obj/
+*/*/bin/
+*/*/obj/ 
+*.suo
+*.sln.DotSettings.user
+
+*.Web/App_Data/TEMP/
+*.Web/App_Data/umbraco.config
+*.Web/data/
+*.Web/Images/Cached/
+*.Web/Media/*/Cached/
+
+SMTP Pickup/
